@@ -15,12 +15,17 @@ body {
         color: white;
         text-indent: 15px;
         text-transform: uppercase;
+        letter-spacing: 2px;
+        text-shadow: 5px 0 10px rgba(0,0,0,0.3);
+        border-bottom: 3px solid dimgray;
+        margin-bottom: 20px;
     }
 
     h2 {
         font-size: 1.2em;
         color: white;
         text-indent: 60px;
+        text-shadow: 5px 0 10px rgba(0,0,0,0.3);
     }
 
     h3 {
@@ -29,6 +34,7 @@ body {
         text-indent: 100px;
         font-weight: normal;
         font-style: italic;
+        text-shadow: 5px 0 5px rgba(0,0,0,0.3);
     }
 
     div {
@@ -37,6 +43,7 @@ body {
         border-radius: 0 10px 5px 20px;
         border: none;
         text-align: justify;
+        box-shadow: 5px 0 10px rgba(0,0,0,0.2);
     }
 
         a {
@@ -45,10 +52,16 @@ body {
             font-weight: bold;
             text-align: right;
             text-decoration: none;
-    color: darkseagreen;
+            color: darkseagreen;
+            text-shadow: 3px 0 5px rgba(0,153,245,0.2);
         }
 
         a:hover {
-            color: white;
-            background: linear-gradient(to left top, skyblue,darkseagreen);
+            color: dimgray;
         }
+
+    strong {
+        letter-spacing: 1px;
+        color: dimgray;
+        font-weight: bold;
+    }
